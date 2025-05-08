@@ -7,6 +7,7 @@ import Login2 from './Login/Login2';
 import Tabletugas from './Table/Tabletugas';
 import Tablestatus from './Table/Tablestatus';
 import Homescraper from './Scraper/Homescraper';
+import GScraper from './GundarmaScraper/G-Scraper';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
              <Route path="/Tabletugas" element={<Tabletugas />} />
              <Route path="/Tablestatus" element={<Tablestatus />} />
              <Route path="/Homescraper" element={<Homescraper />} />
+            <Route path="/G-Scraper" element={<GScraper />} />
           </Routes>
       </Router>
   );

@@ -1,0 +1,5 @@
+{
+  "name": "api",
+  "main": "index.js",
+  "compatibility_date": "2025-08-15"
+}
